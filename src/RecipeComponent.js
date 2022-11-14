@@ -6,7 +6,7 @@ function RecipeComponent({label, dishType, image,ingredients}){
         </div>
        
         <div className="container">
-        <img src={image}/>
+        <img src={image} alt='food'/>
         </div>
         <div className="container">
             <h3>Meal type: {dishType}</h3>
